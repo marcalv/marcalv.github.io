@@ -79,6 +79,32 @@
                 "type":"Paso",
                 "name":"Butiffarra + sombra follower v2",
                 "keywords":""
+            },
+            {
+                "id":14,
+                "type":"Figura",
+                "name":"JT Figura Clase 1",
+                "keywords":"judit toni figura"
+            },
+            {
+                "id":15,
+                "type":"Figura",
+                "name":"HA Figura 1",
+                "keywords":"hector alba figura"
+            },
+            {
+                "id":16,
+                "type":"Figura",
+                "name":"@daiveryandrea peinado sombra",
+                "keywords":"doble peinado sombra",
+                "ig_link":"https://www.instagram.com/p/CqVcUU0L_n3/"
+            },
+            {
+                "id":17,
+                "type":"Figura",
+                "name":"@igor.bachata cabeza leader",
+                "keywords":"cabeza leader",
+                "ig_link":"https://www.instagram.com/p/CrVaWZ4M9YT/"
             }
             
         ]
