@@ -44,6 +44,7 @@
                     </video>
                     <p>
                         <a id="link" href="" target="_blank">🔗 Link al video original</a>
+                        <br>
                         <button class="btn btn-primary" onclick="share()">Compartir</button>
                     </p>
                 </div>
@@ -140,7 +141,7 @@
             try {
                 currentId = window.currentData['id']
                 await navigator.share({
-                text: 'Follow me to get more web development content.',
+                text: '',
                 url: location.protocol + '//' + location.host + location.pathname
 +'?share_id='+currentId
                 })
