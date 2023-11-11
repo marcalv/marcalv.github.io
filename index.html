@@ -48,7 +48,7 @@
                         <source src="" type="video/mp4">
                     </video>
                     <p>
-                        <a id="ig_link" href="" target="_blank">INSTAGRAM LINK</a>
+                        <a id="link" href="" target="_blank">🔗 Link al video original</a>
                     </p>
                 </div>
                 <div class="modal-footer">
@@ -82,12 +82,12 @@
                 $('#video').attr('src', 'media/videos/'+ data.id + '.mp4')
                 $('#modalTitle').text(data.name)
 
-                if (data.ig_link){
-                    $('#ig_link').attr('href', data.ig_link)
-                    $('#ig_link').show()
+                if (data.link){
+                    $('#link').attr('href', data.link)
+                    $('#link').show()
                 } else
                 {
-                    $('#ig_link').hide()
+                    $('#link').hide()
                 }
                 
 

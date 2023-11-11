@@ -97,14 +97,14 @@
                 "type":"Figura",
                 "name":"@daiveryandrea peinado sombra",
                 "keywords":"doble peinado sombra",
-                "ig_link":"https://www.instagram.com/p/CqVcUU0L_n3/"
+                "link":"https://www.instagram.com/p/CqVcUU0L_n3/"
             },
             {
                 "id":17,
                 "type":"Figura",
                 "name":"@igor.bachata cabeza leader",
                 "keywords":"cabeza leader",
-                "ig_link":"https://www.instagram.com/p/CrVaWZ4M9YT/"
+                "link":"https://www.instagram.com/p/CrVaWZ4M9YT/"
             },
             {
                 "id":18,
@@ -175,7 +175,16 @@
                 "name":"JT Figura Clase 4 W/ MUSIC",
                 "keywords":"judit toni ondas",
                 "date":"06/11/2023"
+            },
+            {
+                "id":28,
+                "type":"Figura",
+                "name":"igor YT short ondas frente",
+                "keywords":"igor ondas",
+                "date":"11/11/2023",
+                "link":"https://www.youtube.com/shorts/9v26MyaaoRo"
             }
+            
             
         ]
 }
