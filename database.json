@@ -105,6 +105,76 @@
                 "name":"@igor.bachata cabeza leader",
                 "keywords":"cabeza leader",
                 "ig_link":"https://www.instagram.com/p/CrVaWZ4M9YT/"
+            },
+            {
+                "id":18,
+                "type":"Figura",
+                "name":"JT Figura Clase 2",
+                "keywords":"judit toni figura",
+                "date":"16/10/2023"
+            },
+            {
+                "id":19,
+                "type":"Figura",
+                "name":"JT Figura Clase 3",
+                "keywords":"judit toni figura",
+                "date":"23/10/2023"
+            },
+            {
+                "id":20,
+                "type":"Figura",
+                "name":"HA Figura SBK",
+                "keywords":"hector alba sbk congreso",
+                "date":"27/10/2023"
+            },
+            {
+                "id":21,
+                "type":"Figura",
+                "name":"JT Figura Clase 3",
+                "keywords":"judit toni figura",
+                "date":"30/10/2023"
+            },
+            {
+                "id":22,
+                "type":"Figura",
+                "name":"Figura SBK",
+                "keywords":"figura sbk",
+                "date":"28/10/2023"
+            },
+            {
+                "id":23,
+                "type":"Figura",
+                "name":"Figura Desconocidos BONUS SBK",
+                "keywords":"figura sbk",
+                "date":"28/10/2023"
+            },
+            {
+                "id":24,
+                "type":"Figura",
+                "name":"Figura Javi Mariluz Quechimba",
+                "keywords":"figura quechimba",
+                "date":"1/11/2023"
+            },
+            {
+                "id":25,
+                "type":"Paso",
+                "name":"JT Figura Clase 4 CONTEO",
+                "keywords":"judit toni ondas paso",
+                "date":"06/11/2023"
+            },
+            {
+                "id":26,
+                "type":"Figura",
+                "name":"JT Figura Clase 4 BONUS",
+                "keywords":"judit toni ondas",
+                "date":"06/11/2023"
+            },
+            {
+                "id":27,
+                "type":"Paso",
+                "name":"JT Figura Clase 4 W/ MUSIC",
+                "keywords":"judit toni ondas",
+                "date":"06/11/2023"
             }
             
         ]
