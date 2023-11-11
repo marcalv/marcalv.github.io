@@ -29,11 +29,6 @@
 
     <table id="myTable" class="display"></table>
 
-    <script>
-        function clickao() {
-            $('#exampleModal').modal('show')
-        }
-    </script>
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -49,6 +44,7 @@
                     </video>
                     <p>
                         <a id="link" href="" target="_blank">🔗 Link al video original</a>
+                        <button class="btn btn-primary" onclick="share()">Compartir</button>
                     </p>
                 </div>
                 <div class="modal-footer">
@@ -69,15 +65,26 @@
                     { "data": "type", "title": "Tipo" },
                     { "data": "name", "title": "Nombre" },
                     { "data": "keywords", "title": "Keywords" },
-                ]
+                ],
+                "rowId": "id"
             });
 
 
             // Add event listener for opening and closing details
             $('#myTable tbody').on('click', 'tr', function () {
+
+                // get data from element clicked
                 var data = table.row(this).data();
                 console.log('You clicked on id ' + data.id);
                 
+                openModal(data)
+
+            });
+            
+            // Open modal based on data
+            function openModal(data){
+                console.log('Opening id ' + data.id);
+
                 // Edit modal data
                 $('#video').attr('src', 'media/videos/'+ data.id + '.mp4')
                 $('#modalTitle').text(data.name)
@@ -91,17 +98,56 @@
                 }
                 
 
-                //Show Modal
+                // Show Modal
                 $('#exampleModal').modal('show')
 
+                // Save current modal to global var
+                window.currentData = data
 
-            });
+            }
 
+            // Add listener to stop video on modal close
             $('#exampleModal').on("hide.bs.modal", function () {
                 $('#video').get(0).pause()
             });
 
+
+
+            
+            // Open video if url param set
+            // set callback for when datatable is fully loaded
+            $('#myTable').DataTable().ajax.url('database.json').load(callback);
+            
+            function callback(){
+                
+                let searchParams = new URLSearchParams(window.location.search)
+                if (searchParams.has('share_id')){
+                    let share_id = searchParams.get('share_id')
+                    console.log("share id is "+share_id)
+
+                    var table = $('#myTable').DataTable();
+                    var data = table.row("#"+share_id).data()
+                    openModal(data)
+                }
+            }
+            
+            
+
         });
+
+        // Share action
+        async function share() {
+            try {
+                currentId = window.currentData['id']
+                await navigator.share({
+                text: 'Follow me to get more web development content.',
+                url: location.protocol + '//' + location.host + location.pathname
++'?share_id='+currentId
+                })
+            } catch (error) {
+                console.log('Sharing failed!', error)
+            }
+            }
 
 
     </script>
