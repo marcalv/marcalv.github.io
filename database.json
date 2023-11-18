@@ -183,8 +183,34 @@
                 "keywords":"igor ondas",
                 "date":"11/11/2023",
                 "link":"https://www.youtube.com/shorts/9v26MyaaoRo"
+            },
+            {
+                "id":29,
+                "type":"Figura",
+                "name":"JT Figura Clase 5",
+                "keywords":"judit toni cabezas ondas",
+                "date":"13/11/2023"
+            },
+            {
+                "id":30,
+                "type":"Figura",
+                "name":"JT Figura Clase 5 BONUS 1 ",
+                "keywords":"judit toni cabezas ondas",
+                "date":"13/11/2023"
+            },
+            {
+                "id":31,
+                "type":"Figura",
+                "name":"JT Figura Clase 5 BONUS 2",
+                "keywords":"judit toni cabezas ondas",
+                "date":"13/11/2023"
+            },
+            {
+                "id":31,
+                "type":"Figura",
+                "name":"Quechimba Berra Figura",
+                "keywords":"berra quechimba figura",
+                "date":"17/11/2023"
             }
-            
-            
         ]
 }
