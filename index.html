@@ -46,6 +46,7 @@
                         <a id="link" href="" target="_blank">🔗 Link al video original</a>
                         <br>
                         <button class="btn btn-primary" onclick="share()">Compartir</button>
+                        <a id="download" class="btn btn-primary" download href="">Descargar</a>
                     </p>
                 </div>
                 <div class="modal-footer">
@@ -89,6 +90,7 @@
 
                 // Edit modal data
                 $('#video').attr('src', 'media/videos/'+ data.id + '.mp4')
+                $('#download').attr('href', 'media/videos/'+ data.id + '.mp4')
                 $('#modalTitle').text(data.name)
 
                 if (data.link){
