@@ -128,13 +128,6 @@
                 "date":"27/10/2023"
             },
             {
-                "id":21,
-                "type":"Figura",
-                "name":"JT Figura Clase 3",
-                "keywords":"judit toni figura",
-                "date":"30/10/2023"
-            },
-            {
                 "id":22,
                 "type":"Figura",
                 "name":"Figura SBK",
@@ -211,6 +204,34 @@
                 "name":"Quechimba Berra Figura",
                 "keywords":"berra quechimba figura",
                 "date":"17/11/2023"
+            },
+            {
+                "id":33,
+                "type":"Figura",
+                "name":"JT Figura Clase 6",
+                "keywords":"judit toni",
+                "date":"20/11/2023"
+            },
+            {
+                "id":34,
+                "type":"Figura",
+                "name":"Igor Taller 7pk2",
+                "keywords":"7 pecados",
+                "date":"26/11/2023"
+            },
+            {
+                "id":35,
+                "type":"Figura",
+                "name":"JT Figura Clase 7",
+                "keywords":"judit toni",
+                "date":"27/11/2023"
+            },
+            {
+                "id":36,
+                "type":"Figura",
+                "name":"JT Figura Clase 7 W/ MUSIC",
+                "keywords":"judit toni",
+                "date":"27/11/2023"
             }
         ]
 }
