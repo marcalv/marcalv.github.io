@@ -250,6 +250,48 @@
                 "name":"JT Figura Clase 7 W/ MUSIC",
                 "keywords":"judit toni",
                 "date":"27/11/2023"
+            },
+            {
+                "id":37,
+                "type":"Figura",
+                "name":"JT Figura Especial Navidad",
+                "keywords":"judit toni",
+                "date":"11/12/2023"
+            },
+            {
+                "id":38,
+                "type":"Figura",
+                "name":"JT Figura Clase Enero 1",
+                "keywords":"judit toni",
+                "date":"08/01/2024"
+            },
+            {
+                "id":39,
+                "type":"Figura",
+                "name":"JT Figura Clase Enero 2",
+                "keywords":"judit toni",
+                "date":"15/01/2024"
+            },
+            {
+                "id":40,
+                "type":"Figura",
+                "name":"JT Figura Clase Enero 3",
+                "keywords":"judit toni",
+                "date":"22/01/2024"
+            },
+            {
+                "id":41,
+                "type":"Figura",
+                "name":"JT Figura Clase Febrero 1",
+                "keywords":"judit toni",
+                "date":"05/02/2024"
+            },
+            {
+                "id":42,
+                "type":"Figura",
+                "name":"JT Figura Clase Febrero 2",
+                "keywords":"judit toni",
+                "date":"13/02/2024"
             }
         ]
 }
